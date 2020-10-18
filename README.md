@@ -20,7 +20,7 @@ Kelas : TI 20.A2
 
 ``git --version``
 
-![20201016_163410 1](https://user-images.githubusercontent.com/66506609/96243082-71b06f80-0fce-11eb-9a03-940defed1612.png)
+![ss git 1](https://user-images.githubusercontent.com/72969987/96360425-70568280-1147-11eb-8ada-8995a2198516.png)
 
 
 ### Menambahkan Global Config
@@ -31,11 +31,11 @@ Kelas : TI 20.A2
 
 * Config Global Repository
 
-`$ git config --global user.name ìnama_user"`
+`$ git config --global user.name ‚Äúnama_user"`
 
-`$ git config --global user.email ìnama_userî`
+`$ git config --global user.email ‚Äúnama_user‚Äù`
 
-![20201016_163452 1](https://user-images.githubusercontent.com/66506609/96243249-a8868580-0fce-11eb-954a-39270ac9c26c.png)
+![ss git 3](https://user-images.githubusercontent.com/72969987/96360684-67ff4700-1149-11eb-8567-a91b124a053c.png)
 
 ### Perintah Dasar Git
 
@@ -71,7 +71,7 @@ $ cd latihan1``
 
 * Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
 * disini kita akan coba buat satu file bernama README.md (text file)
-`$ echo ì# Latihan 1î >> README.md`
+`$ echo ‚Äú# Latihan 1‚Äù >> README.md`
 * File **README.md** berhasil dibuat.
 
 
@@ -82,17 +82,15 @@ $ cd latihan1``
 `$ git add README.md`
 * File **README.md** berhasil ditambahkan.
 
-![Screenshot (50)](https://user-images.githubusercontent.com/66506609/96245078-221f7300-0fd1-11eb-9171-a25f2bdbfa35.png)
-
+![ss git 4](https://user-images.githubusercontent.com/72969987/96360718-abf24c00-1149-11eb-9f4b-7359539554c9.png)
 
 ### `Commit` (Menyimpan perubahan ke database)
 
-* Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m ìkomentar commitî
-`$ git commit -m ìFile pertama sayaî`
+* Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m ‚Äúkomentar commit‚Äù
+`$ git commit -m ‚ÄúFile pertama saya‚Äù`
 * Perubahan berhasil disimpan.
 
-![20201016_163326 1](https://user-images.githubusercontent.com/66506609/96244442-43339400-0fd0-11eb-8fdb-45032a8ec449.png)
-
+![ss git 5](https://user-images.githubusercontent.com/72969987/96360775-3f2b8180-114a-11eb-8c27-daa878b74adf.png)
 
 ### Membuat repository server
 
@@ -101,7 +99,7 @@ $ cd latihan1``
 * Pada laman github, klik tombol start a project, atau
 * Dari menu (icon +) klik New Repository
 
-![Screenshot (39)](https://user-images.githubusercontent.com/66506609/95936476-da95bd00-0dff-11eb-826d-c7b34e2c45fc.png)
+![latihan vcs](https://user-images.githubusercontent.com/72969987/96360849-f0cab280-114a-11eb-9ab6-f867910e16df.png)
 
 
 ### Membuat repository server
@@ -123,23 +121,21 @@ $ cd latihan1``
 `$ git push -u origin master`
 * Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
-![Screenshot (50)](https://user-images.githubusercontent.com/66506609/96245078-221f7300-0fd1-11eb-9171-a25f2bdbfa35.png)
-
+![ss git 4](https://user-images.githubusercontent.com/72969987/96360718-abf24c00-1149-11eb-9f4b-7359539554c9.png)
 
 ### Melihat hasilnya pada server repository
 
 * Buka laman github.com, arahkan pada repositorinya.
 * Maka perubahan akan terlihat pada laman tersebut.
 
-![Screenshot (41)](https://user-images.githubusercontent.com/66506609/95936958-eafa6780-0e00-11eb-85fa-262b7f92ef40.png)
-
+![tugas vcs2](https://user-images.githubusercontent.com/72969987/96360940-b4e41d00-114b-11eb-9672-4a834d0d2c5c.png)
 
 ### Clone Repository
 
 * Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 * Untuk melakukan cloning, gunakan perintah `git clone [url]`
 
-![Screenshot (59)](https://user-images.githubusercontent.com/66506609/96254417-76c9ea80-0fdf-11eb-8af2-15adba4f4c33.png)
+![ss git 6](https://user-images.githubusercontent.com/72969987/96360971-ebba3300-114b-11eb-9273-9ee84988fd19.png)
 
 ### Kegunaan file README.md
 
